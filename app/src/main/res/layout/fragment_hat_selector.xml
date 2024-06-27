@@ -7,6 +7,15 @@
     android:background="@color/background_default"
     tools:context=".presentation.HatSelectorFragment">
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/harry_potter_house"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,5 +24,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:backgroundTint="@color/white"
         app:srcCompat="@drawable/harry_potter_hat_selector_icon"/>
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>
