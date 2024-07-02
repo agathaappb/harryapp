@@ -5,12 +5,27 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/background_default"
-    tools:context=".presentation.HatSelectorFragment">
+    tools:context=".presentation.HatSelector.HatSelectorFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hat_selector_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="@string/hat_selector_title"
+        android:textAlignment="center"
+        app:fontFamily="@font/henny_penny"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hat_selector_title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

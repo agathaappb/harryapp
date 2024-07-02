@@ -10,6 +10,6 @@
         android:id="@+id/main_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.harryapp.presentation.HatSelectorFragment"/>
+        android:name="com.harryapp.presentation.HatSelector.HatSelectorFragment"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

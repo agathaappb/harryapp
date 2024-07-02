@@ -5,5 +5,4 @@ enum class HogwartsHouse {
     HUFFLEPUFF,
     REVENCLAW,
     SLYTHERIN,
-    DEFAULT
 }
