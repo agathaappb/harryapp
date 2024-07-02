@@ -11,7 +11,7 @@ class HatSelectorUseCase() {
     }
 
     private fun dataSelectorHouse():Int{
-        val houses = listOf<String>(
+        val houses = listOf(
             "GRYFFINDOR",
             "HUFFLEPUFF",
             "REVENCLAW",
