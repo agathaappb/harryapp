@@ -1,4 +1,4 @@
-package com.harryapp.data
+package com.harryapp.models.data
 
 enum class HogwartsHouse {
     GRYFFINDOR,

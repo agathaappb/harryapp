@@ -1,10 +1,9 @@
-package com.harryapp.presentation.HatSelector
+package com.harryapp.viewmodels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.harryapp.domain.HatSelectorUseCase
-import kotlinx.coroutines.handleCoroutineException
+import com.harryapp.models.HatSelectorUseCase
 
 class HatSelectorViewModel(
     val hatSelectorUseCase: HatSelectorUseCase

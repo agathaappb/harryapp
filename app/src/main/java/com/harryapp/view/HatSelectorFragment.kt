@@ -1,4 +1,4 @@
-package com.harryapp.presentation.HatSelector
+package com.harryapp.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,11 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import com.harryapp.R
 import com.harryapp.databinding.FragmentHatSelectorBinding
+import com.harryapp.viewmodels.HatSelectorViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 

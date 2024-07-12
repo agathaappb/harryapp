@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/background_default"
-    tools:context=".presentation.HatSelector.HatSelectorFragment">
+    tools:context=".view.HatSelectorFragment">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/hat_selector_title"
@@ -26,11 +26,11 @@
         android:id="@+id/hat_selector_img_house"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/harry_potter_house"
+        app:layout_constraintBottom_toTopOf="@id/hat_selector_img_house"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/harry_potter_house"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/hat_selector_btn"

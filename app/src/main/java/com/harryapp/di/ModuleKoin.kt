@@ -1,7 +1,7 @@
 package com.harryapp.di
 
-import com.harryapp.domain.HatSelectorUseCase
-import com.harryapp.presentation.HatSelector.HatSelectorViewModel
+import com.harryapp.models.HatSelectorUseCase
+import com.harryapp.viewmodels.HatSelectorViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

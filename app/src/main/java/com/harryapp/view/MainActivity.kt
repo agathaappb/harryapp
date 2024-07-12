@@ -1,4 +1,4 @@
-package com.harryapp.presentation
+package com.harryapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

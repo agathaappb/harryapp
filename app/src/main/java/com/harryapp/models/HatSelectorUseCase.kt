@@ -1,8 +1,8 @@
-package com.harryapp.domain
+package com.harryapp.models
 
 import com.harryapp.R
-import com.harryapp.data.HogwartsHouse
-import com.harryapp.data.mapToHouse
+import com.harryapp.models.data.HogwartsHouse
+import com.harryapp.models.data.mapToHouse
 
 class HatSelectorUseCase() {
 
